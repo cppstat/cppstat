@@ -909,6 +909,8 @@ features:
   - desc: "The Oxford variadic comma"
     paper: P3176
     support: [GCC 15, Clang 20]
+    summary: "Variadic ellipsis parameters (`...`) without a separating comma are deprecated, such as `int...`."
+    content: oxford-variadic-comma.md
 
   - desc: "Retiring niebloids"
     paper: P3136
