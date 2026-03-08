@@ -1594,7 +1594,11 @@ features:
 
   - desc: "Rename `std::nontype`, and make it broadly useful"
     paper: P3774
+    summary: "`std::nontype_t` and `std::nontype` are renamed to `std::constant_arg_t` and `std::constant_arg`, respectively."
     lib: true
+    ftm:
+      - name: __cpp_lib_function_ref
+        value: 202511L
 
   - desc: "Remove `evaluation_exception()` from contract-violation handling for C++26"
     paper: P3819
