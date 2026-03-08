@@ -309,8 +309,10 @@ features:
 
   - desc: "More constexpr for `<cmath>` and `<complex>`"
     paper: P1383
+    summary: "More mathematical functions are now `constexpr`, such as `std::sqrt`."
+    content: more-constexpr-cmath.md
     lib: true
-    support: [GCC 4.6]
+    support: [GCC 4.6 (partial)]
     ftm:
       - name: __cpp_lib_constexpr_cmath
         value: 202306L
