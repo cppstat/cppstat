@@ -1582,6 +1582,7 @@ features:
   - desc: "Future-proof `submdspan_mapping`"
     paper: P3663
     lib: true
+    support: [GCC 16]
 
   - desc: "Make `std::optional<T&>` trivially copyable"
     paper: P3836
