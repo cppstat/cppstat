@@ -578,6 +578,7 @@ features:
 
   - desc: "Disallow binding a returned [glvalue](https://en.cppreference.com/w/cpp/language/value_category.html#glvalue) to a temporary"
     paper: P2748
+    content: disallow-return-temporary-glvalue.md
     support:
       - GCC 14
       - Clang 19
