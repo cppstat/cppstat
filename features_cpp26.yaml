@@ -512,6 +512,7 @@ features:
 
   - desc: "Remove `std::basic_string::reserve()` from C++26"
     paper: P2870
+    summary: "The overload of `std::basic_string::reserve()` with no parameters is removed. It used to be a poor substitute for `std::basic_string::shrink_to_fit()`."
     lib: true
     support: [Clang 18, Xcode 16]
 
