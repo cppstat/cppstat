@@ -1602,6 +1602,8 @@ features:
 
   - desc: "Library Support for Expansion Statements"
     paper: P1789
+    summary: "Specializes `std::tuple_size`, `std::tuple_element`, and `std::get` for `std::integer_sequence` to make it usable in expansion statements and structured bindings."
+    content: expansion-statements-library-support.md
     lib: true
     support: [Clang 22]
     ftm:
