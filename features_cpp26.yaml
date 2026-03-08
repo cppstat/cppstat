@@ -1586,7 +1586,7 @@ features:
   - desc: "Make `std::optional<T&>` trivially copyable"
     paper: P3836
     lib: true
-    support: [Clang 22]
+    support: [GCC 16, Clang 22]
 
   - desc: "When Do You Know `execution::connect()` Doesn’t Throw?"
     paper: P3388
