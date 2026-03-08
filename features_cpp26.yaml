@@ -1370,6 +1370,9 @@ features:
   - desc: "Rename `std::observable()` to `std::observable_checkpoint()`, and add a feature-test macro"
     paper: P3641
     lib: true
+    ftm:
+      - name: __cpp_lib_observable_checkpoint
+        value: 202506L
 
   - desc: "`std::string::subview()`"
     paper: P3044
