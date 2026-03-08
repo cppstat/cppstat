@@ -1487,6 +1487,8 @@ features:
 
   - desc: "Atomic floating-point min/max"
     paper: P3008
+    summary: "Adds atomic minimum/maximum operations between floating-point types, as well as non-atomic `<cmath>` functions."
+    content: atomic-float-min-max.md
     lib: true
     ftm:
       - name: __cpp_lib_atomic_min_max
