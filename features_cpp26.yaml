@@ -1643,3 +1643,4 @@ features:
   - desc: "Optimize for `std::optional` in range adaptors"
     paper: P3913
     lib: true
+    support: [GCC 16]
