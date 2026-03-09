@@ -1377,6 +1377,7 @@ features:
     ftm:
       - name: __cpp_lib_observable_checkpoint
         value: 202506L
+    support: [GCC 16]
 
   - desc: "`std::string::subview()`"
     paper: P3044
