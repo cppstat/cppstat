@@ -62,9 +62,9 @@ int main() {
     auto tup = std::tuple{1, 3.14, "hello"};
     auto tup2 = std::tuple{2, 3.14, "hell"};
 
-    assert(not is_eq_iile(tup, tup2));
-    assert(not is_eq_fold(tup, tup2));
-    assert(not is_eq_template_for(tup, tup2));
+    assert(!is_eq_iile(tup, tup2));
+    assert(!is_eq_fold(tup, tup2));
+    assert(!is_eq_template_for(tup, tup2));
 
     assert(is_eq_iile(tup, tup));
     assert(is_eq_fold(tup, tup));
