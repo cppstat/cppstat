@@ -16,7 +16,7 @@ features:
       - MSVC 14.0
       - Xcode
 
-  - desc: "Removing trigraphs??!"
+  - desc: "Removing trigraphs??!!"
     paper: N4086
     support:
       - GCC 5
