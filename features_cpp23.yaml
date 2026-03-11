@@ -1239,6 +1239,7 @@ features:
     paper: P2438
     lib: true
     support:
+      - GCC 16
       - Clang 16
       - MSVC 14.34
       - Xcode 15
