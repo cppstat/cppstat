@@ -597,7 +597,7 @@ features:
   - desc: "Heterogeneous erasure overloads for associative containers"
     paper: P2077
     lib: true
-    support: [MSVC 14.32]
+    support: [GCC 16, MSVC 14.32]
     ftm:
       - name: __cpp_lib_associative_heterogeneous_erasure
         value: 202110L
