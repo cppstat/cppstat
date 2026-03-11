@@ -1665,3 +1665,6 @@ features:
     paper: P3913
     lib: true
     support: [GCC 16]
+
+  - desc: "Test 3"
+    paper: P1234
