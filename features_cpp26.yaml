@@ -207,6 +207,7 @@ features:
   - desc: "Atomic minimum/maximum"
     paper: P0493
     lib: true
+    support: [GCC 16]
     ftm:
       - name: __cpp_lib_atomic_min_max
         value: 202403L
