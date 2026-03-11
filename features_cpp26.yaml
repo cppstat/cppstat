@@ -688,6 +688,7 @@ features:
   - desc: "Formatting of `filesystem::path` (`std::formatter<filesystem::path>`)"
     paper: P2845
     lib: true
+    support: [GCC 16]
     ftm:
       - name: __cpp_lib_format_path
         value: 202403L
