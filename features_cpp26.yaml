@@ -1665,3 +1665,14 @@ features:
     paper: P3913
     lib: true
     support: [GCC 16]
+
+  - desc: "Test"
+    paper: P1234
+    content: test.md
+    summary: "Test summary"
+    keywords: [test]
+    support: [GCC]
+    ftm:
+      - name: __cpp_test
+        value: 123456L
+        desc: "Test description"
