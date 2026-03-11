@@ -245,7 +245,7 @@ features:
     lib: true
     support: [GCC 14]
     ftm:
-      - name: _cpp_lib_text_encoding
+      - name: __cpp_lib_text_encoding
         value: 202306L
 
   - desc: "`std::function_ref`: type-erased callable reference"
