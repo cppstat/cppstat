@@ -976,6 +976,7 @@ features:
   - desc: "`constexpr` for `std::uninitialized_default_construct()`"
     paper: P3369
     lib: true
+    support: [GCC 15]
     ftm:
       - name: __cpp_lib_raw_memory_algorithms
         value: 202411L
