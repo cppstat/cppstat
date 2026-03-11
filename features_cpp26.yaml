@@ -214,6 +214,7 @@ features:
   - desc: "Extending associative containers with the remaining heterogeneous overloads"
     paper: P2363
     lib: true
+    support: [GCC 16]
     ftm:
       - name: __cpp_lib_associative_heterogeneous_insertion
         value: 202306L
