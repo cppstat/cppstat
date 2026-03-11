@@ -1010,7 +1010,7 @@ features:
     paper: P1264
     lib: true
     support:
-      - GCC ?
+      - GCC
       - Clang 9
       - MSVC
       - Xcode 12
