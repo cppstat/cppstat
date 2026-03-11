@@ -645,7 +645,7 @@ features:
   - desc: "Undeprecate `std::polymorphic_allocator::destroy()` for C++26"
     paper: P2875
     lib: true
-    support: [Clang 15, MSVC 14.41]
+    support: [GCC 14.3, Clang 15, MSVC 14.41]
 
   - desc: "Remove deprecated strstreams from C++26"
     paper: P2867
