@@ -1632,3 +1632,7 @@ features:
   - desc: "Declarations and where to find them"
     paper: P1787
     support: [MSVC]
+
+  - desc: "Test"
+    paper: P1234
+    content: test.md
