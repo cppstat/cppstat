@@ -1032,6 +1032,7 @@ features:
   - desc: "Contracts for C++ (`<contracts>`)"
     paper: P2900
     summary: "Contracts let you specify preconditions, postconditions, and assertions that document and enforce function requirements."
+    support: [GCC 16]
     ftm:
       - name: __cpp_contracts
         value: 202502L
