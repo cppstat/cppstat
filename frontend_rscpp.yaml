@@ -22,6 +22,8 @@ issue_tracker:
   name: JetBrains YouTrack
   url_template: "https://youtrack.jetbrains.com/issue/{id}"
 releases:
+  - version: "2026.3"
+    refs: []
   - version: "2026.2"
     released: July 22, 2026
     refs:
