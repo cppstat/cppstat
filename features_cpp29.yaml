@@ -101,10 +101,9 @@ features:
     paper: P3540
     support:
       - GCC 17
-      - tool: R++
-        status: partial
+      - tool: R++ 2026.3
+        status: full
         issue: RSCPP-37875
-        note: "The gnu::offset and clang::offset spellings work. The standard offset does not."
     ftm:
       - name: __cpp_pp_embed
         value: 202606L
